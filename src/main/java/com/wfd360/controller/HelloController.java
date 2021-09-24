@@ -13,12 +13,12 @@ public class HelloController {
     @ResponseBody
     public String data() {
         System.out.println("---------Hello Jenkins----------");
-        return "hello wordAAAAAA";
+        return "hello wordAAAAAA666";
     }
     @RequestMapping("/")
     @ResponseBody
     public String index() {
         System.out.println("---------Hello Jenkins----------");
-        return "Hello Jenkins";
+        return "Hello Jenkins666";
     }
 }
