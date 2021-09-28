@@ -19,6 +19,6 @@ public class HelloController {
     @ResponseBody
     public String index() {
         System.out.println("---------Hello Jenkins----------");
-        return "Hello Jenkins000";
+        return "Hello Jenkins999999990";
     }
 }
